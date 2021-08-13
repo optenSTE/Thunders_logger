@@ -13,11 +13,10 @@
 Настроить отображение онлайн-карты на сайте map.blitzortung.org. Открыть нужный район + запас по сторонам. Тип подложки - по вкусу
 
 Запустить запись скриншотов с помощью программы AutomaticScreenshotter
-~Capture Options
+Capture Options
   Capture rate = 1
   Specific region - указать неизменную часть карты (где нет счетчиков, рекламы), например 14х199, 1899х850
 Capture Rules
   Ignore changes... = 1
 App Rules
   Only ever capture... = chrome.exe
-~
