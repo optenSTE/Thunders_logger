@@ -8,9 +8,7 @@
 # Обходной путь1
 Необходимо открыть онлайн-карту молний, запустить запись скриншотов.
 На полученных снимках найти маркеры молний, определить их координаты - вручную или с помощью python
-
-# Подготовительные этапы
-'''
+```
 Настроить отображение онлайн-карты на сайте map.blitzortung.org. Открыть нужный район + запас по сторонам. Тип подложки - по вкусу
 
 Запустить запись скриншотов с помощью программы AutomaticScreenshotter
@@ -21,13 +19,13 @@ Capture Rules
   Ignore changes... = 1
 App Rules
   Only ever capture... = chrome.exe
-'''
+```
 
 # Обходной путь2
 На сайт приходят JSON'ы с описанием молний
 https://map.blitzortung.org/GEOjson/getjson.php?f=s&n=01
 Содержимое:
-'''
+```
 [
   [
     16.286692,
@@ -49,4 +47,15 @@ https://map.blitzortung.org/GEOjson/getjson.php?f=s&n=01
   ],
   ...
 ]
-'''
+
+Значение полей
+[
+  Широта, °
+  Долгота, °
+  Время молнии (UTC)
+  Container:	1	(Europe)
+  max deviation,	nsec
+  min cycle gap, °
+  detectors involved
+]
+```
